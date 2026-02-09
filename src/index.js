@@ -1,4 +1,3 @@
-import { greeting } from "./hello.js";
-import "./styles.css";
+import "./styles/main.css";
 
-console.log(greeting);
+console.log("hello world");
