@@ -1,0 +1,57 @@
+.pizzas{
+    font-size: 50px;
+}
+
+.cards-pizzas{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    gap:10px;
+    width: 1200px;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 100px 200px;
+    width: 350px;
+    height: 100px;
+    gap:10px;
+    border: 3px solid black;
+    background-color: rgba(44, 13, 13, 0.24);
+
+}
+
+img{
+    height: calc(100px - 6px);
+    width: 100px;
+}
+
+.info{
+    height: 100px;
+    width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.title{
+    text-align: start;
+    font-size: 20px;
+}
+
+p{
+    text-align: start;
+}
+
+.price{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid green;
+    background-color: green;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    margin-bottom: 10px;
+}
